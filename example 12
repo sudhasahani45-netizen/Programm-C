@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    clrscr();
+
+    printf("Robotics and Automation\n");
+    printf("1. C Programming\n");
+    printf("2. Engineering Mathematics\n");
+    printf("3. Electrical Machines");
+
+    getch();
+}
