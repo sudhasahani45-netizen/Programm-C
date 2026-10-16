@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int n, square;
+    clrscr();
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    square = n * n;
+
+    printf("Square = %d", square);
+    getch();
+}
